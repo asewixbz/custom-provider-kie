@@ -1,5 +1,5 @@
 {
-  "name": "pi-extension-kie-gpt",
+  "name": "pi-extension-custom-provider-kie",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -9,6 +9,8 @@
     "check": "echo 'nothing to check'"
   },
   "pi": {
-    "extensions": ["./index.ts"]
+    "extensions": [
+      "./index.ts"
+    ]
   }
 }
